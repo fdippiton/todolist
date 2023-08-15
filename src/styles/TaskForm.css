@@ -1,0 +1,22 @@
+input.input_task {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+input.input_task:focus {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.add_task-btn {
+  background-color: #deb9cc;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.add_task-btn:hover {
+  background-color: #67568c;
+  color: #ffffff;
+}

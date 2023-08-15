@@ -1,0 +1,17 @@
+.task_content {
+  background-color: #cabae2;
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  color: #210194;
+  cursor: pointer;
+}
+
+.icon_btn-delete {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.icon_btn-delete:hover {
+  color: #b53214;
+}
