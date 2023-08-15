@@ -26,7 +26,7 @@ function Task({ task }) {
 
   return (
     <div
-      className="task_content flex justify-between py-4 mb-3 px-5 items-center rounded-md"
+      className="task_content flex justify-between py-2 mb-3 px-5 items-center rounded-md xs:w-72 sm:w-96 md:w-11/12 mx-auto"
       onClick={handleComplete}
       style={
         status ? { backgroundColor: "#e0cbdc" } : { textDecoration: "none" }
